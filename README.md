@@ -1,14 +1,14 @@
-# 🔥 Forest Fire Confidence Prediction
+# 🔥 Forest Fire Likelihood Prediction
 
-A complete machine learning project to predict the **confidence score** of forest fires based on satellite data. The project follows the full ML lifecycle—from data cleaning to deployment.
+A complete machine learning project to predict the likelihood & intensity of forest fires for a algerian forest fire dataset. The project follows the full ML lifecycle—from data cleaning to deployment.
 
 ---
 
 ## 📁 Project Overview
 
-- Predicts the likelihood (confidence score) of a forest fire.
-- Uses satellite data: brightness, location, time, fire power, and more.
-- Built using Python, Pandas, Scikit-learn, and Jupyter Notebooks.
+- Predicts the likelihood & intensity of a forest fire.
+- Uses satellite data: temprature, relative humidity, wind speed, rain, and more.
+- Built using Python, Numpy, Pandas, Scikit-learn, Flask, and Jupyter Notebooks.
 
 ---
 
@@ -48,4 +48,4 @@ The dataset includes:
    - Used `train_test_split` and cross-validation.
 
 4. **Deployment**
-   - Deployed via a Flask/FastAPI API.
+   - Deployed via a Flask API.
